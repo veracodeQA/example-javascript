@@ -11,7 +11,7 @@ num_files=$1
 
 # Loop to create JSON files
 for ((i=1; i<=num_files; i++)); do
-  filename="file_test11_$i.json"
+  filename="file_test1_$i.json"
   echo "{\"file\": \"$filename\", \"content\": \"Sample content for $filename\"}" > "$filename"
   echo "Created $filename"
 done
